@@ -16,10 +16,25 @@
     <header class="header">
       <section class="header__container container">
         <a href="./home.html">
-          <img src="./image/logo.svg" alt="logo LCubos">
+          <img src="./image/logo.svg" alt="logo LCubos" />
         </a>
         <a href="./outlet.html" class="header__link">Outlet</a>
-        <img src="./image/cart.svg" alt="mini carrinho, clique para abrir">
+        <details class="minicart">
+          <summary class="minicart__summary">
+            <img
+              src="./image/cart.svg"
+              alt="mini carrinho, clique para abrir"
+            />
+          </summary>
+          <div class="minicart__main">
+            <h3 class="minicart__title">Meu Carrinho</h3>
+            <div class="minicart__item">
+              <img src="./image/product__minicart.png" alt="pc gamer" />
+              <p class="minicart__item__name">Computador Gamer</p>
+              <p class="minicart__item__price">15000</p>
+            </div>
+          </div>
+        </details>
       </section>
     </header>
   </body>
