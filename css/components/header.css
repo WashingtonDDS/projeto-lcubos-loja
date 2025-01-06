@@ -1,0 +1,15 @@
+.header {
+  background-color: var(--purple-900);
+  color: var(--white-900);
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__link {
+  text-transform: uppercase;
+  font-weight: 600;
+}
