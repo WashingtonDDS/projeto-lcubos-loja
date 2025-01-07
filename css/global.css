@@ -30,7 +30,6 @@ img {
 .button {
   border-radius: var(--border-radius);
   font-weight: 700;
-  color: var(--white-900);
   background-color: var(--purple-900);
   border: 0;
   padding: 8px;
@@ -45,4 +44,9 @@ img {
 .button--primary {
   color: var(--white-900);
   background-color: var(--purple-900);
+}
+
+.button--secundary {
+  background-color: var(--blue-900);
+  color: var(--white-900);
 }

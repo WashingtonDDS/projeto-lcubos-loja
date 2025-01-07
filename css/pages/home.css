@@ -3,6 +3,7 @@
 @import url(../global.css);
 @import url(../components/header.css);
 @import url(../components/products.css);
+@import url(../components/newsletter.css);
 
 .banner--primary {
   border-radius: var(--border-radius);
