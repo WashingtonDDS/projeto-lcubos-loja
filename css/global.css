@@ -7,10 +7,6 @@ textarea {
   font-size: 20px;
 }
 
-img {
-  width: 100%;
-}
-
 .container {
   width: 100%;
   max-width: 1240px;
@@ -49,4 +45,10 @@ img {
 .button--secundary {
   background-color: var(--blue-900);
   color: var(--white-900);
+}
+
+@media (max-width: 768px) {
+  .title {
+    text-align: center;
+  }
 }

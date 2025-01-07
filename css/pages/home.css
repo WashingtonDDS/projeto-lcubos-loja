@@ -8,4 +8,24 @@
 
 .banner--primary {
   border-radius: var(--border-radius);
+  height: 400px;
+  width: 1200px;
+  max-width: 100%;
+  margin-bottom: 52px;
+
+  background: url(../../image/banner-primary.png) center / cover no-repeat;
+}
+
+.banner--secundary {
+  border-radius: var(--border-radius);
+  width: 685px;
+  height: 180px;
+
+  background: url(../../image/banner-secundary.png) center / cover no-repeat;
+}
+
+@media (max-width: 992px) {
+  .banner--secundary {
+    width: 100%;
+  }
 }
